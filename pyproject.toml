@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sourced-ai-search"
+version = "0.1.0"
+authors = ["Abraham Linsenmayer"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opensearch-py = "^3.1.0"
+huggingface-hub = "^1.2.3"
+datasets = "^4.4.2"
+ollama = "^0.6.1"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+playwright = "^1.40.0"
+readabilipy = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
